@@ -6,7 +6,7 @@ public class Principal {
 		
 		//Instanciar
 		Ex01 n = new Ex01();
-		n.laco();
+		
 		
 
 	}
