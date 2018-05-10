@@ -153,7 +153,7 @@ public class Ex01 {
 
             JOptionPane.showMessageDialog(null, msg);
      	}
-       //Laço
+       //Laço principal
      	public void laco() {
      		
      		//Variável
@@ -165,7 +165,8 @@ public class Ex01 {
      			obteridade();
      			obterSexo();
      			obterCargo();
-     			continuar = JOptionPane.showConfirmDialog(null, "Deseja continuar?", "", 0);
+     		    continuar = JOptionPane.showConfirmDialog(null, "Deseja continuar?", "", 0);
+     		    
      		}while(continuar == 0);	
      		
      		exibir();
