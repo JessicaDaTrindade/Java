@@ -1,15 +1,17 @@
-package exercicio02;
+package exercicio03;
 
-import exercicio02.Ex02;
+import exercicio03.Ex03;
 
 public class Principal {
 
 	public static void main(String[] args) {
 		
+		
 		//Instanciar
-		Ex02 n = new Ex02();
-		n.laco();
+		Ex03 p = new Ex03();
+		p.laco();
 
+		
 	}
 
 }
